@@ -1,0 +1,44 @@
+body {
+	background: #DDDDDD;
+}
+
+.formulario {
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	background: #fff;
+	width: 40%;						
+	height: 100%;					
+	margin: auto;					
+	padding: 2%;
+}
+
+.casillas {
+	border: 1px solid #DDDDDD;		
+	border-radius: 2px;				
+	padding: 7px;					
+	padding-left: 7%;				
+	width: 100%;					
+	display: flex;					
+	position: relative;
+}
+.casillas::placeholder{					
+	color: grey;
+}
+.casillas:hover{						
+	background: #A5A5A5;
+}
+.casillas:focus{
+	background: #F1F1F1;
+	padding: 4px;
+}
+i {                                  	
+	position: relative; 
+	left: 90%;
+	top: 32px;
+	z-index: 50;
+}
+
+.bandera{
+    display: flex;
+    align-self: center;
+}

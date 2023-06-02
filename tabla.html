@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Resultado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <div class="column is-half is-offset-one-quarter">
+        <article class="media-content">
+            <h1 style="text-align: center;" class="title">Resultado</h1>
+            <div class="content col-md-6 offset-md-3" id="contentprin">
+                <table class="table is-bordered is-fullwidth" id="tabla_resultado">
+                    <thead>
+                        <tr>
+                            <th style="background-color: #17a2b7; color: #ffff; font-size: 40px; " id="titulo">
+                                <img src="smiley.png" alt="" height="80px" width="80px" />
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="campo">
+                                <p>Email:</p>
+                                <span id="email" class="tag is-link"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="campo">
+                                <p>Telefono:</p>
+                                <span id="tel" class="tag is-info"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="campo">
+                                <p>Gusto:</p>
+                                <span id="gusto" class="tag is-success">Success</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="campo">
+                                <p>Porcentaje %:</p>
+                                <span id="porcentaje" class="tag is-danger">Danger</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </div>
+</body>
+<script type="text/javascript" src="table.js"></script>
+
+</html>
